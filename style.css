@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(122, 122, 183);
+}
+.container{
+        margin: 20% auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+        background-color: aliceblue;
+      }
+
+.container div{
+    margin: 7px;
+}      
+.head{
+    margin-top: 0%;
+}
+
+#output_value {
+    color: green;
+    text-decoration: line-through;
+    user-select: none; /* Standard */
+    font-size: 21px;
+  }
+#generate{
+    float: right;
+}
+
+#txt-box{
+    width: 250px;
+}

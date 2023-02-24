@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="head">Captcha Generator</h2>
+      <button id="generate" onclick="gen()">Generate</button>
+      <div id="output">Generated is: <span id="output_value"></span></div>
+      <div class="input">
+        <input
+          type="text"
+          name=""
+          id="txt-box"
+          placeholder="Enter Text In Image"
+        />
+      </div>
+      <button onclick="compare()">Submit</button>
+      <div>The condition is: <span id="result_txt"></span></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
